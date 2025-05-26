@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { Diary } from "../lib/type";
-import logo from "@/pages/lib/logowisata.png";
+import { Diary } from "../../types/type";
 import dayjs from "dayjs";
 import { BsDot } from "react-icons/bs";
 import { MdChevronLeft } from "react-icons/md";
@@ -62,7 +61,7 @@ export default function Page() {
               </h1>
               <div className="flex flex-row gap-3 items-center">
                 <div className="rounded-full w-[40px] h-[40px] overflow-hidden">
-                  <img src={logo.src} alt="logo"></img>
+                  <img src='/images/logo.png' alt="logo"></img>
                 </div>
                 <div>
                   <h5 className="text-gray-900 font-semibold">Wisata Diary</h5>

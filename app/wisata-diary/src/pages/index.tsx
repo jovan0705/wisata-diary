@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import dayjs from "dayjs";
 import { BsDot } from "react-icons/bs";
 import { useEffect, useState } from "react";
-import { Diary } from "./lib/type";
+import { Diary } from "../types/type";
 import { PuffLoader } from "react-spinners";
 
 export default function Home() {
